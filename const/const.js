@@ -1,0 +1,1 @@
+const taxRate = 0.1;const total = 100 + (100 *  taxRate);return ' 구매 금액은 ${total}입니다.';const discountable = [];for(let i=0;i<cart.length;i++){    if (cart[i].discountAvailable){        discountable.push(cart[i]);    }}const discountable = cart.filter(item => item.discountAvailable);
